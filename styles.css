@@ -34,7 +34,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 .navbar a:hover {
@@ -83,7 +83,7 @@ body {
   width: 25px;
   height: 3px;
   background-color: #ff0000;
-  margin: 5px 0;
+  margin: 4px 0;
 }
 
 #map-container {
@@ -180,7 +180,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
   color: white;
   z-index: -1;
@@ -221,37 +221,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
+  .navbar a {
+    font-size: 15px;
+  }
   .menu {
     transform: translateX(-40%); /* Changed from translateX(100%) to translateX(-100%) */
     transition: transform 0.3s ease-in-out;
+    display: none; /* Hide the menu on small screens */
   }
   .toggle-menu {
     transform: translateX(-100%);
+    display: flex;
   }
   .toggle-menu .bar {
     background-color: #ff0000;
     transform: translateX(0%);
   }
-}
-
-@media only screen and (max-width: 768px) {
-  #map-container {
-    max-width: 768px;
-  }
-  .menu {
-    display: none; /* Hide the menu on small screens */
-  }
-  
-  .toggle-menu {
-    display: flex; /* Show the toggle menu on small screens */
-  }
-  
-  .toggle-menu .bar {
-    background-color: #ff0000;
-    transform: translateX(0%);
-  }
-  
   .toggle-menu.active .bar:nth-child(1) {
     transform: translateY(10px) rotate(-45deg);
   }
@@ -263,25 +249,7 @@ body {
   .toggle-menu.active .bar:nth-child(3) {
     transform: translateY(-10px) rotate(45deg);
   }
-  #map {
-    position: absolute;
-    top: 0;
-    left: 10px; /* Update the left position */
-    width: 100%;
-    height: auto;
-    transform: rotate(0);
-    transform-origin: top left;
-  }
 
-  #map img {
-    width: 767px;
-    height: 70%;
-    object-fit: cover;
-    /* transform: rotate(90deg); */
-  }
-}
-
-@media only screen and (max-width: 1080px) {
   #map-container {
     position: fixed;
     top: 10%;
@@ -343,13 +311,13 @@ body {
   
   .marker {
     transform: translate(-50%, -50%) rotate(0);
-    left: 5px; /* Update the left position */
+    left: 50px; /* Update the left position */
   }
 
   .marker .marker-number {
     transform: translate(-50%, -50%) rotate(-90deg);
     font-size: 12px;
-    left: 9px;
+    left: 14px;
   }
 }
 
