@@ -211,15 +211,82 @@ body {
   background-color: rgba(255, 0, 0, 1);
 } */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 768px) {
+  .toggle-menu {
+    display: none; /* Hide the toggle menu on screens larger than 425px */
+  }
+  
+  .menu {
+    display: flex; /* Show the menu on screens larger than 425px */
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .menu {
+    transform: translateX(-40%); /* Changed from translateX(100%) to translateX(-100%) */
+    transition: transform 0.3s ease-in-out;
+  }
+  .toggle-menu {
+    transform: translateX(-100%);
+  }
   .toggle-menu .bar {
     background-color: #ff0000;
+    transform: translateX(0%);
   }
+}
+
+@media only screen and (max-width: 768px) {
+  #map-container {
+    max-width: 768px;
+  }
+  .menu {
+    display: none; /* Hide the menu on small screens */
+  }
+  
+  .toggle-menu {
+    display: flex; /* Show the toggle menu on small screens */
+  }
+  
+  .toggle-menu .bar {
+    background-color: #ff0000;
+    transform: translateX(0%);
+  }
+  
+  .toggle-menu.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+  }
+  
+  .toggle-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .toggle-menu.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(45deg);
+  }
+  #map {
+    position: absolute;
+    top: 0;
+    left: 10px; /* Update the left position */
+    width: 100%;
+    height: auto;
+    transform: rotate(0);
+    transform-origin: top left;
+  }
+
+  #map img {
+    width: 767px;
+    height: 70%;
+    object-fit: cover;
+    /* transform: rotate(90deg); */
+  }
+}
+
+@media only screen and (max-width: 1080px) {
   #map-container {
     position: fixed;
     top: 10%;
     left: 80%;
-    width: 199%;
+    width: 768px;
     height: 40vh;
     max-width: none;
     max-height: none;
