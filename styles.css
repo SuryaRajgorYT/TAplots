@@ -44,7 +44,7 @@ body {
 
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-grow: 1;
   margin-bottom: 10px; /* Add margin at the bottom to create space for the toggle menu */
@@ -82,7 +82,7 @@ body {
 .toggle-menu .bar {
   width: 25px;
   height: 3px;
-  background-color: #ff0000;
+  background-color: #dbff94;
   margin: 4px 0;
 }
 
@@ -235,7 +235,7 @@ body {
     display: flex;
   }
   .toggle-menu .bar {
-    background-color: #ff0000;
+    background-color: #dbff94;
     transform: translateX(0%);
   }
   .toggle-menu.active .bar:nth-child(1) {
