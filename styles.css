@@ -1,0 +1,293 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+}
+
+/* Style to make the video cover the entire screen */
+#fullscreen-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Style for the navigation bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 300;
+}
+
+.navbar a {
+  color: #dbff94;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #206c9b;
+  color: rgb(254, 255, 252);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-bottom: 10px; /* Add margin at the bottom to create space for the toggle menu */
+}
+
+.logo img {
+  width: 300px; /* Adjust the width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap; /* Allow the menu items to wrap to the next line */
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin at the bottom to create space for the toggle menu */
+}
+
+.menu a {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.toggle-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px; /* Add margin at the bottom to create space for the menu */
+}
+
+.toggle-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 5px 0;
+}
+
+#map-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Set the aspect ratio of the map container (16:9) */
+  overflow: hidden;
+  margin-bottom: 100px;
+  transform-origin: center;
+  z-index: 9;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: rotate(0);
+  transform-origin: center;
+  z-index: 8;
+}
+
+#map img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(0);
+  z-index: 7;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-image: url('https://cdn.discordapp.com/attachments/798534032299524149/1117475898870997043/Blue_White_Modern_Thank_You_Tag.png');
+  background-size: cover;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s ease;
+  width: 500%;
+  height: auto;
+  text-align: right;
+  z-index: 999;
+}
+
+.popup h3 {
+  margin: 15px 0;
+  font-size: 25px;
+  font-weight: normal;
+  color: #fdff89; /* Change the text color to red */
+  font-family: Copperplate, Fantasy; /* Change the font family to Arial or any other desired font */
+}
+
+.popup p {
+  margin: 5px 0;
+  font-size: 20px;
+  color: #ffffff; /* Change the text color to black */
+  font-family: Helvetica, Sans-serif; /* Change the font family to Arial or any other desired font */
+}
+
+.popup .status {
+  font-weight: bold;
+}
+
+.popup .status.registered {
+  color: white;
+  background-color: red;
+}
+
+.popup .status.available {
+  color: white;
+  background-color: green;
+}
+
+.popup .status.booked {
+  color: black;
+  background-color: orange;
+}
+
+.marker {
+  position: absolute;
+  width: 4%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.marker .marker-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+  z-index: -1;
+}
+
+/* Update the marker number text color based on the status */
+.marker.available .marker-number {
+  color: rgb(0, 242, 32);
+}
+
+.marker.booked .marker-number {
+  color: rgb(255, 236, 65);
+}
+
+.marker.registered .marker-number {
+  color: rgb(255, 66, 66);
+}
+
+/* .available {
+  background-color: rgba(22, 166, 0, 1);
+}
+
+.booked {
+  background-color: rgba(255, 204, 0, 1);
+}
+
+.registered {
+  background-color: rgba(255, 0, 0, 1);
+} */
+
+@media only screen and (max-width: 800px) {
+  .toggle-menu .bar {
+    background-color: #ff0000;
+  }
+  #map-container {
+    position: fixed;
+    top: 10%;
+    left: 80%;
+    width: 199%;
+    height: 40vh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    margin-left: 100px;
+    overflow: hidden;
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
+
+  #map {
+    position: absolute;
+    top: 0;
+    left: 10px; /* Update the left position */
+    width: 100%;
+    height: auto;
+    transform: rotate(0);
+    transform-origin: top left;
+  }
+
+  #map img {
+    width: 767px;
+    height: 70%;
+    object-fit: cover;
+    /* transform: rotate(90deg); */
+  }
+
+  .popup {
+    display: none;
+    position: absolute;
+    width: 200px;
+    transform: rotate(-90deg);
+    z-index: 100;
+  }
+  .popup h3 {
+    margin: 15px 0;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fdff89; /* Change the text color to red */
+    font-family: Copperplate, Fantasy; /* Change the font family to Arial or any other desired font */
+    transform: rotate(360deg);
+  }
+  
+  .popup p {
+    margin: 5px 0;
+    font-size: 10px;
+    color: #ffffff; /* Change the text color to black */
+    font-family: Helvetica, Sans-serif; /* Change the font family to Arial or any other desired font */
+    transform: rotate(360deg);
+  }
+  .popup .status {
+    font-weight: bold;
+  }
+  
+  .marker {
+    transform: translate(-50%, -50%) rotate(0);
+    left: 5px; /* Update the left position */
+  }
+
+  .marker .marker-number {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-size: 12px;
+    left: 9px;
+  }
+}
+
+
+html {
+  background-color: skyblue;
+  z-index: -1;
+}

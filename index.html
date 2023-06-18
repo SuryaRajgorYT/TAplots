@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Plot Availability Map</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Style to make the video cover the entire screen */
+    #fullscreen-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    body {
+      font-family: 'Nirmala UI', sans-serif; /* Replace 'Nirmala UI' with a Gujarati-supporting font on your system */
+    }
+  </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="toggle-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+
+  <div class="video-container">
+    <video id="fullscreen-video" autoplay muted>
+      <source src="" type="video/mp4">
+    </video>
+  </div>
+  <div id="map-container">
+    <div id="map">
+      <img src="map.webp" alt="Plot Image">
+    </div>
+  </div>
+  
+  <script>
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var videoSource = isMobile ? 'mobile-video.mp4' : 'video.mp4';
+  
+    var video = document.getElementById('fullscreen-video');
+    var source = document.querySelector('#fullscreen-video source');
+  
+    source.setAttribute('src', videoSource);
+    video.load();
+    
+    // Add event listener to pause video on mobile when map is clicked
+    if (isMobile) {
+      document.getElementById('map').addEventListener('click', function() {
+        video.pause();
+        video.remove(); // Remove the video element from the DOM
+      });
+    }
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
