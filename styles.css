@@ -175,7 +175,7 @@ body {
   z-index: 1;
 }
 
-.marker .marker-number {
+.marker .marker-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -187,15 +187,15 @@ body {
 }
 
 /* Update the marker number text color based on the status */
-.marker.available .marker-number {
+.marker.available .marker-text {
   color: rgb(0, 242, 32);
 }
 
-.marker.booked .marker-number {
+.marker.booked .marker-text {
   color: rgb(255, 236, 65);
 }
 
-.marker.registered .marker-number {
+.marker.registered .marker-text {
   color: rgb(255, 66, 66);
 }
 
@@ -314,7 +314,7 @@ body {
     left: 50px; /* Update the left position */
   }
 
-  .marker .marker-number {
+  .marker .marker-text {
     transform: translate(-50%, -50%) rotate(-90deg);
     font-size: 12px;
     left: 14px;
