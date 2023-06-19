@@ -131,7 +131,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   transition: opacity 0.2s ease;
-  width: 500%;
+  width: 300%;
   height: auto;
   text-align: right;
   z-index: 999;
@@ -139,15 +139,15 @@ body {
 
 .popup h3 {
   margin: 15px 0;
-  font-size: 25px;
+  font-size: 10px;
   font-weight: normal;
   color: #fdff89; /* Change the text color to red */
   font-family: Copperplate, Fantasy; /* Change the font family to Arial or any other desired font */
 }
 
 .popup p {
-  margin: 5px 0;
-  font-size: 20px;
+  margin: 10px 0;
+  font-size: 12px;
   color: #ffffff; /* Change the text color to black */
   font-family: Helvetica, Sans-serif; /* Change the font family to Arial or any other desired font */
 }
