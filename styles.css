@@ -303,13 +303,15 @@ body {
   .popup {
     display: none;
     position: absolute;
-    width: 200px;
+    width: 100px;
+    height: auto;
+    border: 1px solid #ffffff;
     transform: rotate(-90deg);
     z-index: 100;
   }
   .popup h3 {
-    margin: 15px 0;
-    font-size: 10px;
+    margin: 5px 0;
+    font-size: 5px;
     font-weight: bold;
     color: #fdff89; /* Change the text color to red */
     font-family: Copperplate, Fantasy; /* Change the font family to Arial or any other desired font */
@@ -317,8 +319,8 @@ body {
   }
   
   .popup p {
-    margin: 5px 0;
-    font-size: 10px;
+    margin: 3px 0;
+    font-size: 5px;
     color: #ffffff; /* Change the text color to black */
     font-family: Helvetica, Sans-serif; /* Change the font family to Arial or any other desired font */
     transform: rotate(360deg);
