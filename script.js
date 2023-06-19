@@ -3,19 +3,23 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const map = document.getElementById('map');
   const video = document.getElementById('fullscreen-video');
 
-  mapContainer.style.display = 'none';
+  mapContainer.style.opacity = '0';
+  
+  video.oncanplay = () => {
+    video.play();
+    setTimeout(() => {
+      video.pause();
+      video.currentTime = 0;
+      video.style.opacity = '0';
+      mapContainer.style.opacity = '1';
+    }, 5000);
+  };
+  
+  video.onended = () => {
+    mapContainer.style.opacity = '1';
+  };
 
-  video.play();
 
-  setTimeout(() => {
-    video.pause();
-    video.currentTime = 0;
-    mapContainer.style.display = 'block';
-  }, 500);
-
-  video.addEventListener('ended', () => {
-    mapContainer.style.display = 'block';
-  });
   // Add markers and popups
   const plots = [
     { 
