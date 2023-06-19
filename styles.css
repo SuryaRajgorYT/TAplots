@@ -185,10 +185,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2vw;
+  font-size: 1vw;
   font-weight: bold;
   color: white;
-  z-index: -1;
+  z-index: 1;
 }
 
 /* Update the marker number text color based on the status */
@@ -208,17 +208,22 @@ body {
   color: #34f390;
 }
 
-/* .available {
+.Available {
   background-color: rgba(22, 166, 0, 1);
 }
 
-.booked {
+.Booked {
   background-color: rgba(255, 204, 0, 1);
 }
 
-.registered {
+.Registered {
   background-color: rgba(255, 0, 0, 1);
-} */
+}
+
+.COP {
+  background-color: rgba(255, 0, 0, 1);
+}
+
 
 @media only screen and (min-width: 768px) {
   .toggle-menu {
