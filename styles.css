@@ -152,19 +152,24 @@ body {
   font-weight: bold;
 }
 
-.popup .status.registered {
+.popup .status.Registered {
   color: white;
   background-color: red;
 }
 
-.popup .status.available {
+.popup .status.Available {
   color: white;
   background-color: green;
 }
 
-.popup .status.booked {
+.popup .status.Booked {
   color: black;
   background-color: orange;
+}
+
+.popup .status.COP {
+  color: black;
+  background-color: #34f390;
 }
 
 .marker {
@@ -187,16 +192,20 @@ body {
 }
 
 /* Update the marker number text color based on the status */
-.marker.available .marker-text {
+.marker.Available .marker-text {
   color: rgb(0, 242, 32);
 }
 
-.marker.booked .marker-text {
+.marker.Booked .marker-text {
   color: rgb(255, 236, 65);
 }
 
-.marker.registered .marker-text {
+.marker.Registered .marker-text {
   color: rgb(255, 66, 66);
+}
+
+.marker.COP .marker-text {
+  color: #34f390;
 }
 
 /* .available {
