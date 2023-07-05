@@ -1,24 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const contactForm = document.querySelector('.contact-form');
-    const confirmation = document.getElementById('confirmation');
-    const submitBtn = document.getElementById('submit-btn');
-  
-    submitBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
-  
-      // Replace the following line with your backend code to send the form data
-      // For this example, we'll just show a confirmation message
-      showConfirmation();
-    });
-  
-    function showConfirmation() {
-      contactForm.style.display = 'none';
-      confirmation.style.display = 'block';
-    }
-
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
   
