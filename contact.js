@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Send email
         Email.send({
           SecureToken: '', // Set to empty string
-          To: 'recipient@example.com', // Replace with the recipient's email address
+          To: 'mborisagar@gmail.com', // Replace with the recipient's email address
           From: email,
           Subject: 'New Contact Form Submission',
           Body: 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message
