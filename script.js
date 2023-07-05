@@ -1355,5 +1355,24 @@ marker.on('click', function() {
   }
 });
 
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var form = e.target;
+  var nameInput = form.elements['name'];
+  var emailInput = form.elements['email'];
+  var messageInput = form.elements['message'];
+  var successMessage = document.getElementById('success-message');
+  
+  // You can replace this with your own logic to handle the form submission
+  
+  // Simulating a successful form submission
+  setTimeout(function() {
+    form.reset();
+    successMessage.classList.remove('hidden');
+  }, 1000);
+});
+
+
 
 });
