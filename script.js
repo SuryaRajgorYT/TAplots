@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       video.currentTime = 0;
       video.style.opacity = '0';
       mapContainer.style.opacity = '1';
-    }, 500);
+    }, 5000);
   };
   
   video.onended = () => {
