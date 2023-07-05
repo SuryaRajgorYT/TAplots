@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       video.currentTime = 0;
       video.style.opacity = '0';
       mapContainer.style.opacity = '1';
-    }, 5000);
+    }, 500);
   };
   
   video.onended = () => {
@@ -864,7 +864,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 90, 
       x: 0.541, 
-      y: 0.822, 
+      y: 0.825, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -873,7 +873,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 91, 
       x: 0.541, 
-      y: 0.765, 
+      y: 0.768, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -882,7 +882,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 92, 
       x: 0.541, 
-      y: 0.707, 
+      y: 0.710, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -891,7 +891,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 93, 
       x: 0.541, 
-      y: 0.575, 
+      y: 0.580, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -900,7 +900,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 94, 
       x: 0.541, 
-      y: 0.516, 
+      y: 0.521, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -909,7 +909,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 95, 
       x: 0.541, 
-      y: 0.463, 
+      y: 0.468, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -918,7 +918,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 96, 
       x: 0.541, 
-      y: 0.41, 
+      y: 0.414, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -927,7 +927,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 97, 
       x: 0.541, 
-      y: 0.357, 
+      y: 0.362, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -936,7 +936,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 98, 
       x: 0.541, 
-      y: 0.3, 
+      y: 0.305, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -944,8 +944,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 
     { 
       id: 99, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.597, 
+      y: 0.41, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",

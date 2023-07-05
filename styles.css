@@ -191,7 +191,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 1vw;
   font-weight: bold;
-  font-family: Helvetica, Sans-serif;
+  font-family: Trebuchet, Sans-serif;
   color: white;
   z-index: 1;
 }
@@ -337,7 +337,10 @@ body {
 
   .marker .marker-text {
     transform: translate(-50%, -50%) rotate(-90deg);
-    font-size: 12px;
+    font-size: 10px;
+    /* font-size: 1vw; */
+    font-weight: bold;
+    font-family: Trebuchet, Sans-serif;
     left: 14px;
   }
 }
