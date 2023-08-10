@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       video.currentTime = 0;
       video.style.opacity = '0';
       mapContainer.style.opacity = '1';
-    }, 5000);
+    }, 10000);
   };
   
   video.onended = () => {
@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       x: 0.438, 
       y: 0.813, 
       description: "Plot 1",
-      owner: "Tulsi Aradhya Holida Resort",
+      owner: "Tulsi Aradhya Holiday Resort",
       bookingDate: "N/A",
       status: "COP"
     },
@@ -54,6 +54,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       x: 0.912, 
       y: 0.801, 
       description: "Plot 1",
+      size: "125 ft²",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "COP"
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     },
     { 
       id: 2, 
@@ -128,7 +129,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 9, 
@@ -200,7 +201,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 17, 
@@ -255,7 +256,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 23, 
@@ -264,7 +265,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 24, 
@@ -291,7 +292,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Booked"
+      status: "Available"
     }, 
     { 
       id: 27, 
@@ -336,7 +337,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 32, 
@@ -345,7 +346,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 33, 
@@ -354,7 +355,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 34, 
@@ -363,7 +364,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 35, 
@@ -372,7 +373,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 36, 
@@ -381,7 +382,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 37, 
@@ -390,7 +391,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 38, 
@@ -435,7 +436,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Booked"
+      status: "Available"
     }, 
     { 
       id: 43, 
@@ -471,7 +472,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 47, 
@@ -480,7 +481,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 48, 
@@ -507,7 +508,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Registered"
+      status: "Available"
     }, 
     { 
       id: 51, 
@@ -543,7 +544,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 55, 
@@ -552,7 +553,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 56, 
@@ -561,7 +562,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 57, 
@@ -570,7 +571,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 58, 
@@ -579,7 +580,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 59, 
@@ -588,7 +589,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 60, 
@@ -624,7 +625,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Registered"
+      status: "Available"
     }, 
     { 
       id: 64, 
@@ -651,7 +652,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 67, 
@@ -705,7 +706,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 73, 
@@ -714,7 +715,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 74, 
@@ -723,7 +724,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 75, 
@@ -732,7 +733,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 76, 
@@ -782,8 +783,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 
     { 
       id: 81, 
-      x: 0.508, 
-      y: 0.295, 
+      x: 0.509, 
+      y: 0.305, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -792,7 +793,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 82, 
       x: 0.508, 
-      y: 0.357, 
+      y: 0.362, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -801,7 +802,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 83, 
       x: 0.508, 
-      y: 0.41, 
+      y: 0.414, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -810,7 +811,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 84, 
       x: 0.508, 
-      y: 0.463, 
+      y: 0.468, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -819,7 +820,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 85, 
       x: 0.508, 
-      y: 0.516, 
+      y: 0.521, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -828,7 +829,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 86, 
       x: 0.508, 
-      y: 0.575, 
+      y: 0.580, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -837,29 +838,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
     { 
       id: 87, 
       x: 0.508, 
-      y: 0.707, 
+      y: 0.710, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 88, 
       x: 0.508, 
-      y: 0.765, 
+      y: 0.768, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 89, 
       x: 0.508, 
-      y: 0.822, 
+      y: 0.825, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 90, 
@@ -868,7 +869,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 91, 
@@ -877,7 +878,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 92, 
@@ -886,7 +887,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 93, 
@@ -940,138 +941,138 @@ window.addEventListener('DOMContentLoaded', (event) => {
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 99, 
-      x: 0.597, 
-      y: 0.41, 
+      x: 0.594, 
+      y: 0.414, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 100, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.468, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 101, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.521, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 102, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.580, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 103, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.710, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 104, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.768, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 105, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.594, 
+      y: 0.825, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 106, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.825, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 107, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.768, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 108, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.710, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Booked"
     }, 
     { 
       id: 109, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.580, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 110, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.521, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 111, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.468, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 112, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.627, 
+      y: 0.414, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Available"
+      status: "Registered"
     }, 
     { 
       id: 113, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.681, 
+      y: 0.325, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -1079,8 +1080,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 
     { 
       id: 114, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.681, 
+      y: 0.369, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -1088,8 +1089,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 
     { 
       id: 115, 
-      x: 0.1655, 
-      y: 0.15, 
+      x: 0.681, 
+      y: 0.414, 
       description: "Plot 1",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
@@ -1097,44 +1098,44 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }, 
     { 
       id: 116, 
-      x: 0.195, 
-      y: 0.159, 
+      x: 0.681, 
+      y: 0.468, 
       description: "Plot 2",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
-      status: "Booked"
+      status: "Available"
     }, 
     { 
       id: 117, 
-      x: 0.15, 
-      y: 0.81, 
-      description: "Plot 11",
-      owner: "Manoj Borisagar જુનાગઢ",
-      bookingDate: "2023-06-20",
-      status: "Registered"
-    },
-    { 
-      id: 118, 
-      x: 0.15, 
-      y: 0.31, 
-      description: "Plot 11",
-      owner: "Manoj Borisagar જુનાગઢ",
-      bookingDate: "2023-06-20",
-      status: "Booked"
-    },
-    { 
-      id: 119, 
-      x: 0.35, 
-      y: 0.31, 
+      x: 0.681, 
+      y: 0.521, 
       description: "Plot 11",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
       status: "Available"
     },
     { 
+      id: 118, 
+      x: 0.681, 
+      y: 0.580, 
+      description: "Plot 11",
+      owner: "Manoj Borisagar જુનાગઢ",
+      bookingDate: "2023-06-20",
+      status: "Available"
+    },
+    { 
+      id: 119, 
+      x: 0.681, 
+      y: 0.710, 
+      description: "Plot 11",
+      owner: "Manoj Borisagar જુનાગઢ",
+      bookingDate: "2023-06-20",
+      status: "Booked"
+    },
+    { 
       id: 120, 
-      x: 0.249, 
-      y: 0.19, 
+      x: 0.681, 
+      y: 0.768, 
       description: "Plot 24",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
@@ -1142,8 +1143,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     },
     { 
       id: 121, 
-      x: 0.751, 
-      y: 0.30, 
+      x: 0.681, 
+      y: 0.825, 
       description: "Plot 81",
       owner: "Chirag Jadav",
       bookingDate: "2023-06-18",
@@ -1151,12 +1152,293 @@ window.addEventListener('DOMContentLoaded', (event) => {
     },
     { 
       id: 122, 
-      x: 0.85, 
-      y: 0.30, 
-      description: "Plot 81",
+      x: 0.714, 
+      y: 0.825, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 123, 
+      x: 0.714, 
+      y: 0.768, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 124, 
+      x: 0.714, 
+      y: 0.710, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 125, 
+      x: 0.714, 
+      y: 0.580, 
+      description: "Plot 122",
+      size: "125",
       owner: "Chirag Jadav",
       bookingDate: "2023-06-18",
       status: "Available"
+    },
+    { 
+      id: 126, 
+      x: 0.714, 
+      y: 0.521, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 127, 
+      x: 0.714, 
+      y: 0.468, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 128, 
+      x: 0.714, 
+      y: 0.414, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 129, 
+      x: 0.714, 
+      y: 0.367, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 130, 
+      x: 0.714, 
+      y: 0.318, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 131, 
+      x: 0.768, 
+      y: 0.414, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 132, 
+      x: 0.768, 
+      y: 0.468, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 133, 
+      x: 0.768, 
+      y: 0.521, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Registered"
+    },
+    { 
+      id: 134, 
+      x: 0.768, 
+      y: 0.580, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 135, 
+      x: 0.768, 
+      y: 0.710, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 136, 
+      x: 0.768, 
+      y: 0.768, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 137, 
+      x: 0.768, 
+      y: 0.825, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 138, 
+      x: 0.802, 
+      y: 0.825, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 139, 
+      x: 0.802, 
+      y: 0.768, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 140, 
+      x: 0.802, 
+      y: 0.710, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 141, 
+      x: 0.802, 
+      y: 0.580, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 142, 
+      x: 0.802, 
+      y: 0.521, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 143, 
+      x: 0.802, 
+      y: 0.468, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 144, 
+      x: 0.802, 
+      y: 0.414, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Registered"
+    },
+    { 
+      id: 145, 
+      x: 0.848, 
+      y: 0.570, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 146, 
+      x: 0.870, 
+      y: 0.570, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 147, 
+      x: 0.893, 
+      y: 0.590, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Available"
+    },
+    { 
+      id: 148, 
+      x: 0.858, 
+      y: 0.715, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 149, 
+      x: 0.858, 
+      y: 0.775, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
+    },
+    { 
+      id: 150, 
+      x: 0.858, 
+      y: 0.835, 
+      description: "Plot 122",
+      size: "125",
+      owner: "Chirag Jadav",
+      bookingDate: "2023-06-18",
+      status: "Booked"
     },
     // Add more plot objects as needed
   ];
@@ -1166,8 +1448,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     popup.className = 'popup';
     popup.innerHTML = `
       <h3>${plot.description}</h3>
+      <p><strong>Size:</strong> ${plot.size}</p>
       <p><strong>Owner:</strong> ${plot.owner}</p>
-      <p><strong>Booking Date:</strong> ${plot.bookingDate}</p>
+      <p><strong>Date Of Registration:</strong> ${plot.bookingDate}</p>
       <p><strong>Status:</strong> <span class="status ${plot.status}">${plot.status}</span></p>
     `;
 
@@ -1354,7 +1637,5 @@ marker.on('click', function() {
     marker.openPopup(popupOptions);
   }
 });
-
-
 
 });

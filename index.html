@@ -28,9 +28,10 @@
       <img src="logo.png" alt="Logo">
     </div>
     <div class="menu">
-      <a href="index.html">Home</a>
-      <a href="#">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html">Shivrajpur-1</a>
+      <a href="#">Shivrajpur-2</a>
+      <a href="#">Aarambhada</a>
+      <a href="#">Makanpur</a>
     </div>
     <div class="toggle-menu">
       <div class="bar"></div>
@@ -46,20 +47,28 @@
   </div>
   <div id="map-container">
     <div id="map">
-      <img src="map.webp" alt="Plot Image">
+      <img src="map.webp" alt="Plot Image" onload="showFooter()">
+      <footer id="footer" class="hidden">
+        <p>Designed and Developed with ❤️ by <a href="https://SuryaRajgor.com">SuryaRajgor</a></p>
+        <p>&copy; 2023 <a href="https://taresort.com">Tulsi Aaradhya Infra and Holiday Resort India.</a> All rights reserved.</p>
+      </footer>
     </div>
   </div>
   
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  
   <script>
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-var videoSource = isMobile ? 'mobile-video.mp4' : 'video.mp4';
+    var videoSource = isMobile ? 'mobile-video.mp4' : 'video.mp4';
 
-var video = document.getElementById('fullscreen-video');
-var source = document.querySelector('#fullscreen-video source');
+    var video = document.getElementById('fullscreen-video');
+    var source = document.querySelector('#fullscreen-video source');
 
-source.setAttribute('src', videoSource);
-video.appendChild(source);
-video.load();
+    source.setAttribute('src', videoSource);
+    video.appendChild(source);
+    video.load();
     
     // Add event listener to pause video on mobile when map is clicked
     if (isMobile) {
@@ -68,9 +77,11 @@ video.load();
         video.remove(); // Remove the video element from the DOM
       });
     }
+    
+    function showFooter() {
+      const footer = document.getElementById('footer');
+      footer.classList.remove('hidden');
+    }
   </script>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
 </body>
 </html>
