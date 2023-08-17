@@ -102,14 +102,16 @@ body {
 
 #footer {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 20px; /* Adjust the bottom value as needed */
+  left: 50%; /* Center the footer horizontally */
+  transform: translateX(-50%); /* Center the footer horizontally */
+  /* background-color: rgba(0, 0, 0, 0.5); */
   color: white;
-  font-size: 10px;
-  padding: 0;
+  font-size: 12px;
+  padding: 10px;
   text-align: center;
+  z-index: 10; /* Ensure the footer is above other elements */
+  width: 100%; /* Make the footer span the entire width */
 }
 
 #footer a {
@@ -312,10 +314,10 @@ body {
   #footer {
     position: absolute;
     bottom: 180px;
-    left: 567px;
+    left: 540px;
     right: 0;
     width:max-content;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     color: white;
     padding: 1px;
     text-align: center;
