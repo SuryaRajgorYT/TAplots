@@ -71,6 +71,7 @@ skipButton.addEventListener('click', () => {
       x: 0.1655, 
       y: 0.15, 
       description: "Plot 1",
+      size: "1000",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -80,6 +81,7 @@ skipButton.addEventListener('click', () => {
       x: 0.161, 
       y: 0.205, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -89,6 +91,7 @@ skipButton.addEventListener('click', () => {
       x: 0.158, 
       y: 0.265, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -98,6 +101,7 @@ skipButton.addEventListener('click', () => {
       x: 0.155, 
       y: 0.325, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -107,6 +111,7 @@ skipButton.addEventListener('click', () => {
       x: 0.155, 
       y: 0.383, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -116,6 +121,7 @@ skipButton.addEventListener('click', () => {
       x: 0.155, 
       y: 0.443, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -125,6 +131,7 @@ skipButton.addEventListener('click', () => {
       x: 0.152, 
       y: 0.505, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -134,6 +141,7 @@ skipButton.addEventListener('click', () => {
       x: 0.152, 
       y: 0.570, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -143,6 +151,7 @@ skipButton.addEventListener('click', () => {
       x: 0.152, 
       y: 0.697, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -152,6 +161,7 @@ skipButton.addEventListener('click', () => {
       x: 0.152, 
       y: 0.758, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -161,6 +171,7 @@ skipButton.addEventListener('click', () => {
       x: 0.152, 
       y: 0.809, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -170,6 +181,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.809, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -179,6 +191,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.759, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -188,6 +201,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.697, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -197,6 +211,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.573, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -206,6 +221,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.514, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -215,6 +231,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.462, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -224,6 +241,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.407, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -234,6 +252,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.357, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -243,6 +262,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.303, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -252,6 +272,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.252, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -261,6 +282,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.200, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -270,6 +292,7 @@ skipButton.addEventListener('click', () => {
       x: 0.195, 
       y: 0.155, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -279,6 +302,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.19, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -288,6 +312,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.25, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -297,6 +322,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.302, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -306,6 +332,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.355, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -315,6 +342,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -324,6 +352,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.462, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -333,6 +362,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.515, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -342,6 +372,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.572, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -351,6 +382,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -360,6 +392,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.76, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -369,6 +402,7 @@ skipButton.addEventListener('click', () => {
       x: 0.249, 
       y: 0.813, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -378,6 +412,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.813, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -387,6 +422,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.76, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -396,6 +432,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -405,6 +442,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.572, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -414,6 +452,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.515, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -423,6 +462,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.462, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -432,6 +472,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -441,6 +482,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.355, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -450,6 +492,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.302, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -459,6 +502,7 @@ skipButton.addEventListener('click', () => {
       x: 0.283, 
       y: 0.25, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -468,6 +512,7 @@ skipButton.addEventListener('click', () => {
       x: 0.282, 
       y: 0.196, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -477,6 +522,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.21, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -486,6 +532,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.255,
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -495,6 +542,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.303, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -504,6 +552,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.356, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -513,6 +562,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -522,6 +572,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.462, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -531,6 +582,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.515, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -540,6 +592,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.574, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -549,6 +602,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -558,6 +612,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.76, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -567,6 +622,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3345, 
       y: 0.813, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -576,6 +632,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.813, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -585,6 +642,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.76, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -594,6 +652,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -603,6 +662,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.575, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -612,6 +672,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.516, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -621,6 +682,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.463, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -630,6 +692,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -639,6 +702,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.357, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -648,6 +712,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.304, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -657,6 +722,7 @@ skipButton.addEventListener('click', () => {
       x: 0.3685, 
       y: 0.245, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -666,6 +732,7 @@ skipButton.addEventListener('click', () => {
       x: 0.422, 
       y: 0.357, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -675,6 +742,7 @@ skipButton.addEventListener('click', () => {
       x: 0.422, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -684,6 +752,7 @@ skipButton.addEventListener('click', () => {
       x: 0.422, 
       y: 0.463, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -693,6 +762,7 @@ skipButton.addEventListener('click', () => {
       x: 0.422, 
       y: 0.516, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -702,6 +772,7 @@ skipButton.addEventListener('click', () => {
       x: 0.422, 
       y: 0.575, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -711,6 +782,7 @@ skipButton.addEventListener('click', () => {
       x: 0.4204, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -720,6 +792,7 @@ skipButton.addEventListener('click', () => {
       x: 0.4204, 
       y: 0.751, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -729,6 +802,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.751, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -738,6 +812,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.7, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -747,6 +822,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.575, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -757,6 +833,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.516, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -766,6 +843,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.463, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -775,6 +853,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.41, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -784,6 +863,7 @@ skipButton.addEventListener('click', () => {
       x: 0.456, 
       y: 0.357, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -793,6 +873,7 @@ skipButton.addEventListener('click', () => {
       x: 0.509, 
       y: 0.305, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -802,6 +883,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.362, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -811,6 +893,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.414, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -820,6 +903,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.468, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -829,6 +913,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.521, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -838,6 +923,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.580, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -847,6 +933,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.710, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -856,6 +943,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.768, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -865,6 +953,7 @@ skipButton.addEventListener('click', () => {
       x: 0.508, 
       y: 0.825, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -874,6 +963,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.825, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -883,6 +973,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.768, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -892,6 +983,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.710, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -901,6 +993,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.580, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -910,6 +1003,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.521, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -919,6 +1013,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.468, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -928,6 +1023,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.414, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -937,6 +1033,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.362, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -946,6 +1043,7 @@ skipButton.addEventListener('click', () => {
       x: 0.541, 
       y: 0.305, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -955,6 +1053,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.414, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -964,6 +1063,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.468, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -973,6 +1073,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.521, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -982,6 +1083,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.580, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -991,6 +1093,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.710, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1000,6 +1103,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.768, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1009,6 +1113,7 @@ skipButton.addEventListener('click', () => {
       x: 0.594, 
       y: 0.825, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1018,6 +1123,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.825, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1027,6 +1133,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.768, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1036,6 +1143,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.710, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Booked"
@@ -1045,6 +1153,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.580, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -1054,6 +1163,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.521, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -1063,6 +1173,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.468, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -1072,6 +1183,7 @@ skipButton.addEventListener('click', () => {
       x: 0.627, 
       y: 0.414, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Registered"
@@ -1081,6 +1193,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.325, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -1090,6 +1203,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.369, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -1099,6 +1213,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.414, 
       description: "Plot 1",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -1108,6 +1223,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.468, 
       description: "Plot 2",
+      size: "125",
       owner: "Tulsi Aradhya Holida Resort",
       bookingDate: "N/A",
       status: "Available"
@@ -1117,6 +1233,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.521, 
       description: "Plot 11",
+      size: "125",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
       status: "Available"
@@ -1126,6 +1243,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.580, 
       description: "Plot 11",
+      size: "125",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
       status: "Available"
@@ -1135,6 +1253,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.710, 
       description: "Plot 11",
+      size: "125",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
       status: "Booked"
@@ -1144,6 +1263,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.768, 
       description: "Plot 24",
+      size: "125",
       owner: "Manoj Borisagar જુનાગઢ",
       bookingDate: "2023-06-20",
       status: "Booked"
@@ -1153,6 +1273,7 @@ skipButton.addEventListener('click', () => {
       x: 0.681, 
       y: 0.825, 
       description: "Plot 81",
+      size: "125",
       owner: "Chirag Jadav",
       bookingDate: "2023-06-18",
       status: "Booked"
@@ -1453,11 +1574,14 @@ skipButton.addEventListener('click', () => {
   plots.forEach(plot => {
     const popup = document.createElement('div');
     popup.className = 'popup';
+    plot.price = 800 * parseInt(plot.size); 
+    const formattedPrice = '₹' + plot.price.toLocaleString();
+    const formattedSize = plot.size + ' Sq/Ft';
     popup.innerHTML = `
       <h3>${plot.description}</h3>
-      <p><strong>Size:</strong> ${plot.size}</p>
+      <p><strong>Size:</strong> ${formattedSize}</p>
       <p><strong>Owner:</strong> ${plot.owner}</p>
-      <p><strong>Date Of Registration:</strong> ${plot.bookingDate}</p>
+      <p><strong>Price:</strong> ${formattedPrice}</p>
       <p><strong>Status:</strong> <span class="status ${plot.status}">${plot.status}</span></p>
     `;
 
