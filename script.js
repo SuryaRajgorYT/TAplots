@@ -2,6 +2,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const mapContainer = document.getElementById('map-container');
   const map = document.getElementById('map');
   const video = document.getElementById('fullscreen-video');
+  const skipButton = document.getElementById('skip-button');
+
+skipButton.addEventListener('click', () => {
+    video.pause();
+    video.style.display = 'none';
+    mapContainer.style.opacity = '1'; // Show the map container
+});
 
   mapContainer.style.opacity = '0';
   
@@ -1637,5 +1644,6 @@ marker.on('click', function() {
     marker.openPopup(popupOptions);
   }
 });
+
 
 });
