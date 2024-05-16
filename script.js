@@ -1,33 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   const mapContainer = document.getElementById('map-container');
   const map = document.getElementById('map');
-  const video = document.getElementById('fullscreen-video');
-  const skipButton = document.getElementById('skip-button');
 
-skipButton.addEventListener('click', () => {
-    video.pause();
-    video.style.display = 'none';
-    mapContainer.style.opacity = '1'; // Show the map container
-});
-
-  mapContainer.style.opacity = '0';
-  
-  video.oncanplay = () => {
-    video.play();
-    setTimeout(() => {
-      video.pause();
-      video.currentTime = 0;
-      video.style.opacity = '0';
-      mapContainer.style.opacity = '1';
-    }, 60000);
-  };
-  
-  video.onended = () => {
-    mapContainer.style.opacity = '1';
-  };
-
-
-  // Add markers and popups
   const plots = [
     { 
       alphabet: 'COP.-1', 
