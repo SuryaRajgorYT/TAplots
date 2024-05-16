@@ -69,7 +69,7 @@ body {
   display: none;
   position: absolute;
   padding: 10px;
-  background-image: url('https://cdn.discordapp.com/attachments/798534032299524149/1117475898870997043/Blue_White_Modern_Thank_You_Tag.png');
+  background-image: url('/popup.png');
   background-size: cover;
   border: 3px solid #ffffff;
   border-radius: 5px;
